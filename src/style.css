@@ -1,0 +1,159 @@
+body{font-family: 'Dosis' , sans-serif;}
+body::before
+{   
+    background: url('./images/bannerfood.jpg') no-repeat center center/cover;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    content: '';
+    filter: brightness(0.5);
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+.img1::before
+{
+    background: url('./images/foodbanner.jpg') no-repeat center center/cover;
+    content: '';    
+    position: absolute;
+    width: 100%;
+    height: 60%;
+    z-index: -1;
+    filter: brightness(0.3);
+    top: 0px;
+    left: 0px;
+}
+.container
+{
+    letter-spacing: 5px; color: white; 
+}
+.Navbtn
+{
+    font-size: 1.5em;
+    margin: 0px 40px;
+    font-weight: bold;
+    letter-spacing: 5px;
+    position: relative;
+    top: 20px;
+} .Navbtn:hover{color:yellow; cursor: pointer;}
+.head1
+{
+    letter-spacing: 2px;
+    text-shadow: 0px 3px 2px yellow;
+}
+.para
+{
+    letter-spacing: 5px; color: rgb(189, 199, 199);
+}
+.btn
+{
+    letter-spacing: 5px;
+    box-shadow: 0px 5px 2px rgb(236, 221, 8);
+}
+.content-box
+{
+    height: auto;
+    display: flex; flex-direction: row;
+    flex-wrap: wrap;
+    padding-left: 140px;
+    position: relative;
+    bottom: 20px;
+}
+.box
+{
+    color: black;
+    border: 0px solid lime;
+    box-shadow: 5px 10px 2px rgb(33, 80, 82);
+    background-color: darkgrey;
+    border-radius: 30px;
+    height: 650px;
+    width: 600px;
+    margin: 100px 100px;
+    padding: 20px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    bottom: 20px;
+}
+.content-image
+{
+    width: 60%;
+    height: 50%;
+    margin-top: 10px;
+}
+.box h1
+{
+    font-size: 2em; font-weight: bold; letter-spacing: 5px; margin-top: 10px;
+    color: rgb(119, 10, 10); text-shadow: 0px 2px 2px rgb(107, 96, 96);
+    height: auto;
+}
+.box p
+{
+    text-align: center;
+    height: auto;
+    font-size: 1.3em;
+    margin: 30px 60px;
+    font-weight: bold;
+    color: rgb(5, 59, 17);
+}
+.contact
+{
+    height: auto;
+    position: relative;
+    bottom: 20px;
+    padding: 40px 40px;
+}
+.contact::before
+{
+    background: url('./images/contact.jpg') no-repeat center center/cover;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+    content: '';
+    left: 0px;
+    top: 0px;
+    filter: brightness(0.3);
+}
+.contact-form
+{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    margin: 60px 15em;
+    font-size: 2em;
+}
+.contact-form label
+{
+    margin-bottom: 20px;
+    font-weight: bold;
+    letter-spacing: 5px;
+    color: rgb(199, 192, 192);
+}
+.contact-form input
+{
+    margin-bottom: 50px;
+    padding: 10px 20px;
+    background-color: lightcyan;
+    box-shadow: 0px 10px 2px rgb(43, 38, 38);
+    font-size: 0.8em;
+    color: rgb(41, 2, 41);
+    font-weight: bold;
+    letter-spacing: 2px;
+    border: 1px solid black;
+    border-radius: 20px;
+} .contact-form input:hover{outline: 1px solid rgb(0, 255, 200);}
+.contact-btn
+{
+    border: 0px solid aqua;
+    box-shadow: 0px 5px yellow;
+    background: linear-gradient(to right,rgb(10, 13, 56),rgb(18, 47, 143),rgb(0, 81, 255));
+    margin-top: 40px;
+    border-radius: 20px;
+    margin-left: 8em;
+    margin-right: 8em;
+    padding: 10px 0px;
+    font-weight: bold;
+    letter-spacing: 5px;
+} .contact-btn:hover{color: lime; font-size: 0.8em;}
